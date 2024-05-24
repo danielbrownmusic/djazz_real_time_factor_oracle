@@ -493,19 +493,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 813.133343904858521, 54.0, 190.0, 35.0 ],
-					"text" : "pv #0_COMPARISON_PATCH fo.compare.default"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-2",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -1196,7 +1183,7 @@
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -1209,7 +1196,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 574.0, 334.0, 876.0, 651.0 ],
+						"rect" : [ 508.0, 301.0, 876.0, 651.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1237,7 +1224,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -1247,19 +1233,6 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 10.347825527191162, 90.0, 563.0, 22.0 ],
 									"text" : "t l l l"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-1",
-									"index" : 2,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 655.0, 12.17391300201416, 30.0, 30.0 ]
 								}
 
 							}
@@ -1473,7 +1446,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 377.166667699813843, 1222.999996439163169, 156.0, 35.0 ],
-													"presentation_linecount" : 2,
 													"text" : "pv #0_NEW_STATE_INDEX"
 												}
 
@@ -1499,7 +1471,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 165.0, 760.999987006187439, 230.0, 35.0 ],
-													"presentation_linecount" : 2,
 													"text" : "pv #0_INSPECTED_STATE_DICT_NAME"
 												}
 
@@ -4031,16 +4002,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 1 ],
-					"order" : 1,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-60", 1 ],
-					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -4090,8 +4052,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "darr.get_at.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../../../../../../Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_real_time_factor_oracle/patchers/tools/dict",
+				"patcherrelativepath" : "../../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4153,8 +4115,8 @@
 			}
 , 			{
 				"name" : "du.get_subdict.maxpat",
-				"bootpath" : "~/Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
-				"patcherrelativepath" : "../../../../../../../Desktop/___Djazz_STMS_presentation_15_05_24/environments/2_modular_architecture/djazz_modular_architecture/patchers/tools/dict",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_real_time_factor_oracle/patchers/tools/dict",
+				"patcherrelativepath" : "../../tools/dict",
 				"type" : "JSON",
 				"implicit" : 1
 			}

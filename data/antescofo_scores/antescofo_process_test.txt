@@ -1,0 +1,5 @@
+@proc_def ::trace($note, $d)
+          {
+                 print begin $note
+              $d print end $note
+          }
